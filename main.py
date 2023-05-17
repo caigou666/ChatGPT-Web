@@ -49,9 +49,10 @@ STREAM_FLAG = True  # 是否开启流式推送
 USER_DICT_FILE = "all_user_dict_v3.pkl"  # 用户信息存储文件（包含版本）
 lock = threading.Lock()  # 用于线程锁
 
-project_info = "## ChatGPT 网页版    \n" \
-               " Code From  " \
-               "[ChatGPT-Web](https://github.com/LiangYang666/ChatGPT-Web)  \n" \
+project_info = "## 欢迎来到CaiGouAi网页版镜像   \n" \
+               " 此镜像免费使用，第一次进入请在输入栏输入"new:XXX(XXX替换为你想要的用户名)"  " \
+               "想要使用自己的API也可以在右上角输入  \n" \
+               " 如果不想使用共享API也可[点击这里](http:/fk.caigouai.online/)购买  " \
                "发送`帮助`可获取帮助  \n"
 
 
